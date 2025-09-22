@@ -1,0 +1,338 @@
+body {
+    font-family: AofL Sans,sans-serif
+}
+
+.container {
+    width: 1200px;
+    margin: auto
+}
+
+.bottom-section,.top-section {
+    margin-top: 70px
+}
+
+.top-section header h1 {
+    font-size: 24px
+}
+
+.top-section .title-bar {
+    margin: 20px 0;
+    font-size: 17px
+}
+
+.top-section .description {
+    font-size: 13px
+}
+
+a.rqu-btn {
+    color: #007bff;
+    text-decoration: none
+}
+
+.price-detils-left-footer ul li a:hover,a.rqu-btn:hover {
+    text-decoration: underline
+}
+
+.program-selection h2,.student-selection h2 {
+    font-size: 18px;
+    font-weight: unset;
+    margin-top: 30px
+}
+
+.program-options {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.program-options .program-option {
+    border: .3px solid #00000014;
+    margin: 0 10px;
+    border-radius: 10px;
+    width: 254px;
+    height: 90px;
+    padding-top: 5px;
+    cursor: pointer
+}
+
+.program-option:has(input:checked) {
+    background: #093a82
+}
+
+.program-options .program-option label {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.program-options .program-option label img.main-img {
+    width: 62px;
+    margin-right: 21px
+}
+
+img.espanol-img,img.math-img,img.reading-img {
+    width: 134px;
+    margin-top: 11px
+}
+
+img.espanol-img-two,img.math-img-two,img.reading-img-two {
+    display: none;
+    width: 96px;
+    margin-top: 11px
+}
+
+.program-option:has(input:checked) .math-img {
+    display: none
+}
+
+.program-option:has(input:checked) .math-img-two {
+    display: block
+}
+
+.program-option:has(input:checked) .reading-img {
+    display: none
+}
+
+.program-option:has(input:checked) .reading-img-two {
+    display: block
+}
+
+.program-option:has(input:checked) .espanol-img {
+    display: none
+}
+
+.program-option:has(input:checked) .espanol-img-two {
+    display: block
+}
+
+.program-options .program-option label span {
+    font-size: 14px;
+    color: #00000091;
+    display: block
+}
+
+.program-option:has(input:checked) span {
+    color: #fff
+}
+
+input#math,input#reading,input#spanish {
+    margin-left: -21px;
+    display: none
+}
+
+img.espanol-img,img.espanol-img-two {
+    width: 105px
+}
+
+.student-selection {
+    border-top: 2px solid #00000014;
+    margin-top: 33px
+}
+
+.counter.left-side {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 25px
+}
+
+p.input-students {
+    margin: 0;
+    text-align: center;
+    color: #000000a8;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.counter button {
+    background: #ccc;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #000;
+    border-radius: 6px
+}
+
+.counter button.active {
+    background: #155bff;
+    color: #fff
+}
+
+.btn-dis {
+    background: #ccc;
+    cursor: not-allowed
+}
+
+.student-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px
+}
+
+input#studentCount {
+    width: 99px;
+    height: 31px;
+    margin: 0 40px;
+    text-align: center;
+    border: 1px solid #00000038;
+    font-size: 26px
+}
+
+.student-right {
+    font-size: 14px
+}
+
+.button-des {
+    border-right: 1px solid #00000024;
+    border-left: 1px solid #00000024;
+    margin: 15px 6px 0;
+    text-align: center
+}
+
+.button-head {
+    display: flex;
+    justify-content: space-between;
+    background: #cde6fd;
+    padding: 0 20px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px
+}
+
+.total-price h1 {
+    margin: 0;
+    display: flex;
+    align-content: center;
+    align-items: center
+}
+
+.total-price h1 span.price-text {
+    font-size: 21px
+}
+
+.price-benner {
+    position: relative;
+    margin-top: -17px
+}
+
+.price-benner img {
+    width: 188px
+}
+
+.price-benner::after {
+    content: "New Member Offer!";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #ffffff24;
+    margin-top: 10px;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: -17%;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.price-detils {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: #f0f8fe;
+    font-size: 16px;
+    padding: 20px 15px;
+    height: 212px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px
+}
+
+.price-section {
+    background: #fff;
+    border: .3px solid #0000001a;
+    padding: 10px
+}
+
+.price-amount ul {
+    padding: 0 12px;
+    font-size: 14px
+}
+
+.price-amount ul li {
+    line-height: 133%
+}
+
+ul.select-title {
+    padding: 0 14px
+}
+
+ul.select-title li {
+    line-height: 176%
+}
+
+.price-amount {
+    margin-top: -6px
+}
+
+.prce-title {
+    font-weight: 700
+}
+
+.price-detils-left-footer ul li {
+    display: inline;
+    margin: 0 7px
+}
+
+.price-detils-left-footer ul li a {
+    color: #07f;
+    text-decoration: none
+}
+
+.button-des .student-des {
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 11px
+}
+
+.continue-btn {
+    text-decoration: none;
+    border-radius: 22px;
+    background: #1447e6de;
+    color: #fff;
+    padding: 8px 30px;
+    margin: auto;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+}
+.continue-btn:hover{
+    background: #1447e6;
+    cursor:pointer;
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width:900px
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width:650px
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width:100%
+    }
+
+    .program-options {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px
+    }
+}

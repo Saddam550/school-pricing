@@ -1,0 +1,214 @@
+body {
+    margin: auto;
+    font-family: AofL Sans,sans-serif
+}
+
+.container {
+    max-width: 1100px;
+    margin: 100px auto 50px
+}
+
+.container h2 {
+    font-size: 28px;
+    margin-bottom: 10px
+}
+
+.subtitle {
+    color: #444;
+    margin-bottom: 20px
+}
+
+form#purchaseForm {
+    width: 921px;
+    margin: auto;
+    border-right: 1px solid #00000014;
+    border-left: 1px solid #00000014;
+    padding: 0 25px;
+    box-shadow: 1px 8px 10px -10px #00000094;
+    margin-top: 58px;
+}
+
+form fieldset {
+    border: none;
+    padding: 0
+}
+
+form legend {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px
+}
+
+.form-group {
+    display: inline-block;
+    width: 46%;
+    vertical-align: top;
+    margin: 0 12px 44px
+}
+
+.form-group.full-width {
+    width: 95%
+}
+
+.form-group label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #595959
+}
+
+.error,.form-group span {
+    color: red
+}
+
+.form-group input,.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+.form-group input:focus,.form-group select:focus {
+    border-color: #007bff;
+    outline: 0
+}
+
+.error {
+    font-size: 13px;
+    display: none;
+    margin-top: 3px;
+    font-style: italic;
+}
+
+input.error-border,select.error-border {
+    border-color: red
+}
+
+.form-check {
+    width: 700px;
+    margin: 20px auto;
+    padding: 6px 20px;
+    border: 1px solid #c0c0c087;
+    border-radius: 10px;
+    display: flex;
+    color: #000;
+    font-weight: 600
+}
+
+.form-check input {
+    margin-right: 10px
+}
+
+.form-check label {
+    font-size: 14px
+}
+
+.form-check a {
+    color: #007bff;
+    text-decoration: none
+}
+
+.form-check a:hover {
+    text-decoration: underline
+}
+
+.btn {
+    background: #005abb;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 28px;
+    cursor: pointer
+}
+
+p.input-title {
+    margin: auto;
+    font-size: 11px
+}
+
+.cnt-btn {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 33px
+}
+
+input::placeholder {
+    font-size: 15px
+}
+
+.btn:hover {
+    background: #0056b3
+}
+
+select#state,select#timezone {
+    background: #e4e4e447;
+    width: 104%;
+
+}
+.school-info-groups {
+    display: flex;
+    width: 97%;
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width:900px
+    }
+
+    form#purchaseForm {
+        width: 721px;
+        margin-top: 78px
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width:650px
+    }
+
+    form#purchaseForm {
+        width: 521px
+    }
+
+    .form-group {
+        width: 44%
+    }
+
+    .form-check {
+        width: 92%
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width:100%
+    }
+.school-info-groups {
+    display: block;
+    width: 100%;
+}
+    form#purchaseForm {
+        width: 100%;
+        padding: 0 10px
+    }
+
+    .form-group {
+        width: 92%
+    }
+
+    .container h2,.subtitle {
+        margin: 20px;
+        line-height: 1.4
+    }
+}
+
+p#school-placeholder {
+    font-style: italic;
+    font-size: 13px;
+    color: #000000cf;
+    margin-left: 7px;
+}
+
+select#school {
+    text-transform: uppercase;
+}

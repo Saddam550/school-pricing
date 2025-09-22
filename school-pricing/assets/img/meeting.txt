@@ -1,0 +1,13 @@
+const meetingLinkTo = document.querySelector('.meeting-link-to');
+const meetingDesc = document.querySelector('.meeting-des');
+
+	new work======
+Click here to book a meeting with Dana Grau
+https://meetings.hubspot.com/dana-grau
+
+Click here to book a meeting with Dr. Courtney Johnson
+https://meetings.hubspot.com/courtney-johnson3
+
+(Bronx, Queens, Richmond, Westchester, Dutchess, Suffolk, Nassau, Putnam or Rockland County)
+
+
